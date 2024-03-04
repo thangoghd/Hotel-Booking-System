@@ -1,0 +1,114 @@
+:root{
+    --teal: #2ec1ac;
+    --teal-hover: #279e8c;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.h-font{
+    font-family: 'Merienda', cursive;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+.custom-bg{
+    background-color: #2ec1ac;
+}
+
+.custom-bg:hover{
+    background-color: #279e8c;
+    border-color: #279e8c;
+}
+
+.availability-form{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .availability-form{
+        margin-top: 25px;
+        padding: 0 35px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .swiper-button-next, .swiper-button-prev{
+        display: none;
+    }
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7;
+}
+
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+}
+
+#dashboard-menu{
+    position: fixed;
+    height: 100%;
+    z-index: 11;
+}
+
+
+#deleteButton {
+    display: none;
+}
+
+.card:hover #deleteButton {
+    display: inline-block;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+@media screen and (max-width: 990px)
+{
+    #dashboard-menu{
+        height: auto;
+        width: 100%;
+    }
+    #main-content{
+        margin-top: 60px;
+    }
+}

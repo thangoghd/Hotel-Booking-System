@@ -64,12 +64,12 @@ CREATE TABLE `booking_details_table` (
 --
 
 INSERT INTO `booking_details_table` (`id`, `booking_id`, `room_name`, `price`, `total_pay`, `room_no`, `user_name`, `phonenum`, `address`) VALUES
-(1, 7, '512A1', 500000, 2500000, 'a5', 'Trần Duy Nam', '0343636602', 'Thai Binh'),
-(2, 8, '011B3', 1500000, 6000000, NULL, 'Trần Duy Nam', '0343636602', 'Thai Binh'),
-(3, 9, '512A1', 500000, 2500000, NULL, 'Hà Việt Thắng', '0343636602', 'Hai Phong'),
-(4, 10, '011B3', 1500000, 4500000, NULL, 'Trần Xuân Phương', '0334362526', 'Hà Nội'),
-(5, 11, '512A1', 500000, 3000000, NULL, 'Trần Xuân Phương', '0334362526', 'Hà Nội'),
-(6, 12, '011B3', 1500000, 13500000, NULL, 'Hà Việt Thắng', '0343636602', 'Hai Phong'),
+(1, 7, '512A1', 500000, 2500000, 'a5', 'Trần Duy Nam', '0363658421', 'Thai Binh'),
+(2, 8, '011B3', 1500000, 6000000, NULL, 'Trần Duy Nam', '0347894217', 'Thai Binh'),
+(3, 9, '512A1', 500000, 2500000, NULL, 'Hà Việt Thắng', '0257896412', 'Hai Phong'),
+(4, 10, '011B3', 1500000, 4500000, NULL, 'Trần Xuân Phương', '0314785264', 'Hà Nội'),
+(5, 11, '512A1', 500000, 3000000, NULL, 'Trần Xuân Phương', '0363678745', 'Hà Nội'),
+(6, 12, '011B3', 1500000, 13500000, NULL, 'Hà Việt Thắng', '0565647128', 'Hai Phong'),
 (7, 13, '512A1', 500000, 8000000, 'a345', 'Phạm Thanh Tùng', '0325748698', 'Hải Phòng');
 
 -- --------------------------------------------------------
